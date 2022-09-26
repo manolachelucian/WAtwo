@@ -1,5 +1,7 @@
-body address{
+body address strong{
     font-size: 125%;
+}
+body address{
     background-color: brown;
     border:  1px solid black;
     font-style: normal;
