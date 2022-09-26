@@ -17,6 +17,7 @@ main a{
 main ul li{
     list-style: none;
 }
+
 main ol li{
     list-style-type:upper-roman;
 }
