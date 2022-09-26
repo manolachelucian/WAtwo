@@ -23,5 +23,31 @@ main ol li{
 main a:visited{
     color: green;
 }
+main a[href^="http"]{
+    background-color: brown;
+    border: 8px;
+    font-size: 125%;
+    padding: 10px 8px;
+}
+main p::first-line{
+    color: red;
+}
+.adresa{
+    display: flex;
+    justify-content: space-around;
+}
+main dd{
+    visibility: hidden;
+    display: none;
+}
+main dt:hover+dd{
+    display: block;
+    color: black;
+    visibility: visible;
+    color: blueviolet;
+}
+.resetpage p:hover+div{
+    all: unset;
+}
 
 
