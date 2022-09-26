@@ -1,0 +1,20 @@
+body address{
+    font-size: 125%;
+    background-color: brown;
+    border:  1px solid black;
+    font-style: normal;
+}
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    
+}
+main ul li{
+    list-style: none;
+}
+main ol li{
+    list-style-type:upper-roman;
+}
